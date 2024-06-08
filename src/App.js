@@ -42,8 +42,7 @@ const App = () => {
             case 'clouds':
                 return 'cloudy.jpg';
             case 'rain':
-                return 'rainy.jpg';
-            // Add more cases as needed
+                return 'rainy.jpg'; 
             default:
                 return 'default.jpg';
         }
