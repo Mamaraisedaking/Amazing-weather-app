@@ -1,0 +1,26 @@
+/* WeatherCard.css */
+.weather-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.weather-card h2 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.weather-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-info p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
