@@ -27,22 +27,26 @@ const App = () => {
         }
     };
 
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            handleSearch();
+        }
+    };
+
     const getBackgroundImage = () => {
         if (!weather) return 'default.jpg';
         const main = weather.weather[0].main.toLowerCase();
         switch (main) {
             case 'clear':
                 return 'sunny.jpg';
-
-             case 'clear sky':
-                  return 'sunny.jpg';    
-
+            case 'clear sky':
+                return 'sunny.jpg';
             case 'mist':
-                    return 'mist.jpg';          
+                return 'mist.jpg';
             case 'clouds':
                 return 'cloudy.jpg';
             case 'rain':
-                return 'rainy.jpg'; 
+                return 'rainy.jpg';
             default:
                 return 'default.jpg';
         }
@@ -58,6 +62,7 @@ const App = () => {
                         type="text"
                         value={location}
                         onChange={(e) => setLocation(e.target.value)}
+                        onKeyPress={handleKeyPress} // Add this line
                         placeholder="Enter location"
                     />
                     <button onClick={handleSearch}>Search</button>
