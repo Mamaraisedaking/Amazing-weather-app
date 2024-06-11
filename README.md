@@ -1,6 +1,4 @@
-Certainly! Here's an improved and more user-friendly README for your weather website, including the link to your hosted site.
 
----
 
 # 🌤️ Amazing Weather App 🌍
 
@@ -17,6 +15,13 @@ Welcome to the Amazing Weather App! Instantly access the weather conditions for 
 1. **Enter Location:** Type the name of the city or location you want to check the weather for in the search bar.
 2. **Click Search:** Hit the search button to fetch the latest weather information.
 3. **View Results:** See the current weather details displayed beautifully on your screen.
+
+## Live Preview
+
+Here's a quick preview of our app in action!
+![Weather App Preview](public/web.gif)
+
+
 
 ## Live Demo
 
