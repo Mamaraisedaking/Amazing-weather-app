@@ -15,7 +15,7 @@ const App = () => {
             setWeather(response.data);
         } catch (error) {
             console.error('Error fetching weather data:', error);
-            setWeather(null);  // Clear weather data on error
+            setWeather(null);  // Clear weather data on errorr
         } finally {
             setLoading(false);
         }

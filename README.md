@@ -18,7 +18,7 @@ Welcome to the Amazing Weather App! Instantly access the weather conditions for 
 
 ## Live Preview
 
-Here's a quick preview of our app in action!
+Here's a quick preview of our app in action!!
 ![Weather App Preview](public/web.gif)
 
 
