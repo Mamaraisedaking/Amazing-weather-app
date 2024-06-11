@@ -25,7 +25,7 @@ Here's a quick preview of our app in action!!
 
 ## Live Demo
 
-Check out the live demo of the Amazing Weather App [here](https://deploy-preview-1--amaazing-weather-app.netlify.app).
+Check out the live demo of the Amazing Weather App [here](https://main--amaazing-weather-app.netlify.app/).
 
 ## Installation
 
